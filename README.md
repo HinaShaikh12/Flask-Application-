@@ -16,9 +16,13 @@ This project is a Flask application that performs CRUD (Create, Read, Update, De
 
 ## API Endpoints
 1.GET /users: Returns a list of all users.
+
 2.GET /users/<id>: Returns the user with the specified ID.
+
 3.POST /users: Creates a new user with the specified data.
+
 4.PUT /users/<id>: Updates the user with the specified ID with the new data.
+
 5.DELETE /users/<id>: Deletes the user with the specified ID.
 
 ## Testing with Postman
