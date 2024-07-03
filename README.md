@@ -12,7 +12,7 @@ This project is a Flask application that performs CRUD (Create, Read, Update, De
 1.Install mongoDB
 2.Install mongo Compass
 3.Install Flask
-4.Intall pymongo
+4.Install pymongo
 5.Install Postman
 
 ## API Endpoints
@@ -29,6 +29,7 @@ This project is a Flask application that performs CRUD (Create, Read, Update, De
 ## Testing with Postman
 
 1.Create a New Request:
+
       Method: POST
       URL: http://localhost:5000/users
       Body:
