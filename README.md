@@ -12,7 +12,8 @@ This project is a Flask application that performs CRUD (Create, Read, Update, De
 1.Install mongoDB
 2.Install mongo Compass
 3.Install Flask
-4.Install Postman
+4.Intall pymongo
+5.Install Postman
 
 ## API Endpoints
 1.GET /users: Returns a list of all users.
