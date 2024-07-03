@@ -16,11 +16,12 @@ This project is a Flask application that performs CRUD (Create, Read, Update, De
 5.Install Postman
 
 ## API Endpoints
-1.GET /users: Returns a list of all users.
 
-2.GET /users/<id>: Returns the user with the specified ID.
+1.POST /users: Creates a new user with the specified data.
 
-3.POST /users: Creates a new user with the specified data.
+2.GET /users: Returns a list of all users.
+
+3.GET /users/<id>: Returns the user with the specified ID.
 
 4.PUT /users/<id>: Updates the user with the specified ID with the new data.
 
@@ -31,7 +32,7 @@ This project is a Flask application that performs CRUD (Create, Read, Update, De
 1.Create a New Request:
 
       Method: POST
-      URL: http://localhost:5000/users
+      URL: http://localhost:5000/add
       Body:
         {
           "name": "John Doe",
